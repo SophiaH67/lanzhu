@@ -7,7 +7,8 @@ type EntityHealthTracker = {
 };
 @Injectable()
 export class AppService {
-  private readonly CRITICAL_ENTITIES = ['mori-summer', 'klee', 'klee2'];
+  // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+  private readonly CRITICAL_ENTITIES = process.env.CRITICAL_DEVICES!.split(',');
 
   private healths: EntityHealthTracker = {};
   public currentProtocol: Protocol = Protocol.LINK_TO_PILOT;
