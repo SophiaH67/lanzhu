@@ -724,6 +724,11 @@
     path-to-regexp "3.2.0"
     tslib "2.5.0"
 
+"@nestjs/mapped-types@*":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@nestjs/mapped-types/-/mapped-types-1.2.2.tgz#d9ddb143776e309dbc1a518ac1607fddac1e140e"
+  integrity sha512-3dHxLXs3M0GPiriAcCFFJQHoDFUuzTD5w6JDhE7TyfT89YKpe6tcCCIqOZWdXmt9AZjjK30RkHRSFF+QEnWFQg==
+
 "@nestjs/microservices@^9.4.0":
   version "9.4.0"
   resolved "https://registry.yarnpkg.com/@nestjs/microservices/-/microservices-9.4.0.tgz#25d5a88a4d7b5c45b53153521a78702a5c8f1f37"
@@ -1401,6 +1406,13 @@ asap@^2.0.0:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
   integrity sha512-BSHWgDSAiKs50o2Re8ppvp3seVHXSRM44cdSsT9FfNEUUZLOGWVCsiWaRPWM1Znn+mqZ1OfVZ3z3DWEzSp7hRA==
+
+async-mqtt@^2.6.3:
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/async-mqtt/-/async-mqtt-2.6.3.tgz#257628900a9a25c61a552fb49f9ae368069b2f28"
+  integrity sha512-mFGTtlEpOugOoLOf9H5AJyJaZUNtOVXLGGOnPaPZDPQex6W6iIOgtV+fAgam0GQbgnLfgX+Wn/QzS6d+PYfFAQ==
+  dependencies:
+    mqtt "^4.3.7"
 
 asynckit@^0.4.0:
   version "0.4.0"

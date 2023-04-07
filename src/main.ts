@@ -13,7 +13,7 @@ async function bootstrap() {
         password: process.env.MQTT_PASSWORD,
         will: {
           topic: 'lanzhu/lastwill',
-          payload: 'I am dead',
+          payload: 'Makasenasai!',
           qos: 0,
           retain: false,
         },
